@@ -1,16 +1,13 @@
-# tflite_object_detection
+# Object Detection
+Using the [tflite](https://pub.dev/packages/tflite) plugin in Flutter for object detection
 
-A new Flutter project.
+## Models used
 
-## Getting Started
+- [SSD MobileNet](https://github.com/tensorflow/models/tree/master/research/object_detection)
+- [Tiny YOLOv2](https://pjreddie.com/darknet/yolov2/)
 
-This project is a starting point for a Flutter application.
+## Demo
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Input Image | Detected objects in the image
+--- | ---
+![WhatsApp Image 2020-06-16 at 5 48 40 PM](https://user-images.githubusercontent.com/32400008/84774316-448d8980-affb-11ea-8a87-c80e7cb7a861.jpeg) |                           ![WhatsApp Image 2020-06-16 at 5 48 10 PM](https://user-images.githubusercontent.com/32400008/84774321-45262000-affb-11ea-872b-ca5403994b89.jpeg)
